@@ -1,0 +1,131 @@
+.er-full-contentn,
+.er-bea-content{
+	max-width: 1250px;
+	margin:0 auto;
+	position: relative;
+	height: 100%;
+}
+
+/*720全景*/
+.er-full-screen{
+	width: 100%;
+	height: 560px;
+	position: relative;
+}
+.er-screen-box{
+	background: #fff;
+	width: 286px;
+	height: 100%;
+	position: absolute;
+	-webkit-transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	transform: skew(-20deg);
+	left: 50%;
+	margin-left: 235px;
+}
+.er-screen-txt{
+	position: absolute;
+	left: 66%;
+	top: 20%;
+	color: #919191;
+}
+.er-screen-txt h4{
+	font-size: 30px;
+	color: #00a4b3;
+	font-weight: normal;
+}
+.er-screen-txt p{
+    position: relative;
+	right: 66px;
+}
+.er-screen-txt .er-view-more{
+	text-align: left;
+    margin-left: -30px;
+}
+/*美景美图*/
+.er-bea-content{
+	padding-left: 1%;
+	padding-top: 25px;
+}
+.er-bea{
+	height: 665px;
+	width: 100%;
+	position: relative;
+}
+.er-bea-list{
+	display: block;
+	float: left;
+	width: 24%;
+	height: 212px;
+	box-sizing: border-box;
+	margin:0 1% 1% 0;
+	overflow: hidden;
+	position: relative;
+}
+.er-bea-list a{
+	color: #fff;
+	display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.er-bea-list .er-bea-img{
+	width: 100%;
+	height: 100%;
+	background: url(../images/4.jpg) center no-repeat;
+	background-size: auto 100%; 
+	transition: 0.4s;
+}
+.er-bea-list .er-bea-text{
+	position: absolute;
+	bottom: -30px;
+	background: rgba(0,0,0,0.7);
+	height: 30px;
+	width: 100%;
+	line-height: 30px;
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+	transition: 0.4s;
+	display: table;
+}
+.er-bea-list .er-cell{
+	display: table-cell;
+	vertical-align: middle;
+}
+.er-bea-list .er-bea-text .er-bea-more{
+	color: #00a4b3;
+}
+.er-bea-list:hover .er-bea-img{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.er-bea-list:hover .er-bea-text{
+	height: 100%;
+	bottom: 0;
+	/*padding-top: 20%;*/
+}
+.er-view-more{
+	text-align: center;
+	padding-top: 25px;
+}
+
+.er-bea-content:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+@media screen and (max-width: 1445px) {
+	.er-screen-txt{
+		left: 72%;
+	}
+}
+@media screen and (max-width: 1036px) {
+	.er-screen-box{
+		margin-left: 108px;
+	}
+
+}

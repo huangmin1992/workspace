@@ -1,0 +1,68 @@
+
+/*景区详情*/
+
+
+/*文本描述*/
+/*.san-txt{
+	text-indent: 24px;
+	line-height: 28px;
+	color: #919191;
+	padding-top: 15px;
+}
+.san-txt-img{
+	width: 70%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}*/
+.er-bea-text{
+	position: absolute;
+	bottom: -35px;
+	background: rgba(0,0,0,0.5);
+	height: 35px;
+	width: 100%;
+	line-height: 35px;
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+	transition: 0.4s;
+	display: table;
+}
+.er-cell{
+	display: table-cell;
+	vertical-align: middle;
+}
+.er-bea-text .er-bea-more{
+	color: #00a4b3;
+}
+.flex-item  .img-box{
+	display: block;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.flex-item:hover .er-bea-text{
+	height: 100%;
+	bottom: 0;
+}
+/*地图*/
+/*音频*/
+.san-audio{
+	position: relative;
+}
+.san-box .san-search audio{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	opacity: 0;
+}
+@media screen and (max-width: 1445px) {
+	
+}
+@media screen and (max-width: 1036px) {
+
+}

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>餐饮预订</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- 图标 CSS-->
+    <link rel="stylesheet" href="fonts/font-awesome/font-awesome.css">
+    <link rel="stylesheet" href="fonts/web-icons/web-icons.css">
+    <link rel="stylesheet" href="fonts/font-awesomex/css/font-awesome.min.css">
+	<!-- css样式 -->
+    <link type="text/css" rel="stylesheet" href="js/jedate/skin/jedate.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/order.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<!-- nav -->
+	<nav>
+		<div class="er-logos">
+			<img src="images/logo1.png" alt="">
+		</div>
+		<div class="er-nav-list">
+			<ul>
+				<li class="er-nav-info active er-nav-first"><span></span>景区状况</li>
+				<li class="er-nav-info"><span></span>美景美图</li>
+				<li class="er-nav-info"><span></span>景区文化</li>
+				<li class="er-nav-info"><span></span>资讯/活动</li>
+				<li class="er-nav-info"><span></span>吃喝玩乐</li>
+				<li class="er-nav-info"><span></span>旅游服务</li>
+				<li class="er-nav-info"><span></span>预定中心</li>
+				<li class="er-nav-info"><span></span>魅力内江</li>
+			</ul>
+		</div>
+		<div class="nav nav-menu">
+			<ul>
+				<li class="nav-list nav-lang">
+					<span>中文</span>
+					<div class="lang-info">
+						<ul>
+							<li class="line"></li>
+							<li>
+								<span></span>
+								CH
+							</li>
+							<li>
+								<span></span>
+								EN
+							</li>
+							<li>
+								<span></span>
+								JP
+							</li>
+							<li>
+								<span></span>
+								KR
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="nav-list nav-screen nav-bg" onclick="fullScreen()">
+					<span class="full-icon"></span>
+					<span class="full-screen">全屏</span>
+				</li>
+				<li class="nav-list nav-home nav-bg">
+					<span class="home-icon"></span>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- banner -->
+	<div class="section san-banner-box">
+		<div class="san-banner" style="	width: 100%;height: 100%;	background: url(images/banner1.jpg) center no-repeat;background-size: cover;"></div>
+		<div class="nav-box">
+			<div class="logo"></div>
+			<div class="nav nav-menu">
+				<ul>
+					<li class="nav-list nav-lang">
+						<span class="lang-mores"></span>
+						<span>中文</span>
+						<div class="lang-info">
+							<ul>
+								<li class="line"></li>
+								<li>
+									<span></span>
+									CH
+								</li>
+								<li>
+									<span></span>
+									EN
+								</li>
+								<li>
+									<span></span>
+									JP
+								</li>
+								<li>
+									<span></span>
+									KR
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="nav-list nav-screen nav-bg" onclick="fullScreen()">
+						<span class="full-icon"></span>
+						<span class="full-screen">全屏</span>
+					</li>
+					<li class="nav-list nav-home nav-bg">
+						<span class="home-icon"></span>
+					</li>
+					<li class="nav-list nav-navbar nav-bg">
+						<span class="nav-lan"></span>
+						栏目导航
+					</li>
+				</ul>
+			</div>
+			<div class="menu nav-menu">
+				<ul>
+					<li class="menu-first">景区状况</li>
+					<li class="menu-info"><span></span>美景美图</li>
+					<li class="menu-info"><span></span>景区文化</li>
+					<li class="menu-info"><span></span>资讯/活动</li>
+					<li class="menu-info"><span></span>吃喝玩乐</li>
+					<li class="menu-info"><span></span>旅游服务</li>
+					<li class="menu-info"><span></span>预定中心</li>
+					<li class="menu-info"><span></span>魅力内江</li>
+				</ul>
+			</div>
+		</div>
+		<div class="banner-txt">
+			<p class="banner-name hdjbaosong animate-top">画仙故里·诗画田园</p>
+			<p class="banner-desc hdjbaosong animate-top">[ 水色湖光，碧波映霓裳，观尚腾，老村新颜欢笑流淌 ]</p>
+			<p class="banner-eg animate-top">Beautiful scenery</p>
+		</div>
+		<div class="banner-more">
+			<span></span>
+		</div>
+		<div class="banner-line"></div>
+	</div>
+	<!-- 三级导航 -->
+	<div class="san-nav animate-top">
+		<div class="san-nav-content">
+			<div class="san-nav-info san-nav-cons">
+				<label for="">当前位置：</label>
+				<ul>
+					<li class="san-nav-list">
+						<a href="javascript:;">首页</a>
+					</li>
+					<li class="san-nav-list">
+						<a href="javascript:;">景区影像</a>
+					</li>
+					<li>
+						<a href="javascript:;">XXXXX景点</a>
+					</li>
+				</ul>
+			</div>
+			<div class="san-nav-btns san-nav-cons">
+				<a href="javascript:;" class="san-likes"><span class="fa-heart"></span>点赞</a>
+				<a href="javascript:;"><span class="fa-arrow-circle-o-left"></span>返回上级</a>
+			</div>
+		</div>
+	</div>
+	<!-- about -->
+	<div class="section about about-box tour-about pages1">
+		<div class="about-title">
+			<p class="hdjbaosong txtdl2">餐饮预订</p>
+			<p class="banner-eg txtdl3">Foods Reservation </p>
+		</div>
+		<div class="er-menu txtdl1">
+			<ul class="er-list">
+				<li class="er-nav" name='section1'>
+					<a href="order.html">
+						<div class="max-circle">
+							<div class="min-circle">
+								<span class="cir-txt">票务预订</span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="er-line"><span></span></li>
+				<li class="er-nav" name='section2'>
+					<a href="order-hotel.html">
+						<div class="max-circle">
+							<div class="min-circle">
+								<span class="cir-txt">酒店预订</span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="er-line"><span></span></li>
+				<li class="er-nav active" name='section3'>
+					<a href="order-food.html">
+						<div class="max-circle">
+							<div class="min-circle">
+								<span class="cir-txt">餐饮预订</span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="er-line"><span></span></li>
+				<li class="er-nav" name='section4'>
+					<a href="order-shop.html">
+						<div class="max-circle">
+							<div class="min-circle">
+								<span class="cir-txt">商品预订</span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="er-line"><span></span></li>
+				<li class="er-nav">
+					<a href="order-plays.html">
+						<div class="max-circle">
+							<div class="min-circle">
+								<span class="cir-txt">娱乐预订</span>
+							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+	</div>
+	<!-- 餐饮预订 -->
+	<div class="section hotel-box animate-top">
+		<div class="er-rebox">
+			<div class="er-hotel-list">
+				<a href="javascript:;">
+					<div class="er-hotel-img">
+						<img src="images/hotel-04.jpg" alt="">
+					</div>
+					<div class="er-hotel-txt">						
+						<span class="er-hotel-name">内江万达嘉华酒店</span>
+						<span class="er-hotel-order">订</span>
+					</div>
+				
+					<div class="er-hotel-info">
+						<div class="er-hotelbox">
+							<p class="er-hotel-name">内江7天快捷酒店</p>
+							<div class="er-hotel-desc">7天优品酒店（内江万达广场店）位于内江东兴区汉安大道万达广场，近兰桂大道，出行交通也十分便捷。</div>
+							<div class="er-hotel-btns">
+								<span class="er-hotel-order er-hotel-icons">订</span>
+								<span class="er-hotel-maps er-hotel-icons"><span class="fa-map-marker"></span></span>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<div class="pages2" style="display: none;"></div>
+	<div class="pages3" style="display: none;"></div>
+	<div class="pages4" style="display: none;"></div>
+	<div class="pages5" style="display: none;"></div>
+	<div class="pages6" style="display: none;"></div>
+	<!-- foot -->
+	<div class="section er-foot">
+		<div class="er-foot-left er-foot-info">
+			<p>版权所有：内江市黄鹤湖旅游景区管理委员会 Copyright @ hhhly.cn All right Resrrved    地址：四川·内江·市中区·永安镇</p>
+			<div class="er-foot-company">
+				全案策划 ：绵阳金石文化
+				<div class="company-img">
+					<img src="images/company.png" alt="">
+				</div>	
+			</div>
+		</div>
+		<div class="er-foot-right er-foot-info">
+			<ul>
+				<li class="er-foot-list er-chart">
+					<a href="javascript:;">
+						<span class="er-foot-icons"></span>
+						官方微信
+					</a>
+					<div class="er-foot-text">
+						<img src="../images/erwm.png" alt="">
+						<div class="er-foot-tf">
+							<p>
+								黄鹤湖旅游景区<br/>
+								官方微信工作平台
+							</p>
+							<p class="er-foot-link">
+								扫一扫，关注更精彩<br/>
+								微信号：hhhlyq
+							</p>
+						</div>
+					</div>
+				</li>
+				<li class="er-foot-list er-full">
+					<a href="javascript:;">
+						<span class="er-foot-icons"></span>
+						虚拟景区
+					</a>
+					<div class="er-foot-text">
+						点击查看720全景景区
+					</div>
+				</li>
+				<li class="er-foot-list er-addr">
+					<a href="javascript:;">
+						<span class="er-foot-icons"></span>
+						虚拟景区
+					</a>
+					<div class="er-foot-text">
+						点击查看地图
+					</div>
+				</li>
+				<li class="er-foot-list er-tel">
+					<a href="javascript:;">
+						<span class="er-foot-icons"></span>
+						咨询热线
+					</a>
+					<div class="er-foot-text">
+						<p class="er-foot-serve">咨询服务热线：0832-8855898</p>
+						<p class="er-foot-help">救援服务电话：0832-6677676</p>
+						<p class="er-foot-lodge">景区投诉电话：0832-5566565</p>
+						<p class="er-foot-country">全国旅游投诉热线：12301</p>
+					</div>
+				</li>
+				<li class="er-foot-list er-links">
+					<a href="javascript:;">
+						<span class="er-foot-icons"></span>
+						分享中心
+					</a>
+					<div class="er-foot-text">
+						<!-- JiaThis Button BEGIN -->
+							<div class="jiathis_style_24x24">
+								<a class="jiathis_button_qzone"></a>
+								<a class="jiathis_button_tsina"></a>
+								<a class="jiathis_button_tqq"></a>
+								<a class="jiathis_button_weixin"></a>
+								<a class="jiathis_button_renren"></a>
+							</div>
+							<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
+						<!-- JiaThis Button END -->
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+
+
+
+
+	<script src='js/jquery.min.js'></script>
+	<script type="text/javascript" src="js/jeDate/jquery.jedate.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/pic-slide.js"></script>
+	<script src='js/plugin.js'></script>
+	<script src='js/impression.js'></script>
+</body>
+</html>

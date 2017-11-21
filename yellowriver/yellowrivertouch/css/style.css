@@ -1,0 +1,278 @@
+
+
+
+/*师资力量图片样式开始*/
+
+.carousel.flexible .items {
+	display: none;
+}
+
+.img-responsive,
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+	display: block;
+	max-width: 100%;
+	height: auto
+}
+
+
+
+.flex-item{
+	width: 25%;
+	position: relative;
+	float:left;
+	min-height: 1px;
+	padding: 18px 10px;
+	  list-style: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.flex-item .box{
+	width: 95%;
+    height:auto;
+	padding: 5px;
+	border:1px solid #ddd;
+	background: #f5f8f8;
+	  -webkit-transition: .4s all;
+  -moz-transition: .4s all;
+  -ms-transition: .4s all;
+  -o-transition: .4s all;
+  transition: .4s all;   
+  text-decoration: none;   
+}
+
+.flex-item .box .imgbox{
+	position: relative;
+	overflow:hidden;
+	width: 100%;
+	/*height:180px;*/
+	margin: 0 auto;
+	transition: 0.3s;
+}
+.flex-item .box .imgbox .ch1{margin-top:90%}
+
+.flex-item .box .title{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px dashed #ccc;
+	font-size: 14px;
+	color: #666;
+	line-height: 30px;
+	text-align: center;	
+	overflow: hidden; /*自动隐藏文字*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    white-space: nowrap;/*强制不换行*/
+}
+
+.flex-item .flex-yin{
+	position: absolute;
+    width: 88%;
+    height: 50px;
+    background: url(../images/yin.png) no-repeat;
+    background-size: contain;
+}
+.flex-item .box .info{
+	position: relative;
+	width: 100%;
+	height: 115px;
+	font-size: 12px;
+	color: #999;
+	line-height: 22px;
+	text-align: left;	
+	overflow: hidden;
+}
+.flex-item .box .info p{
+	height:75px;
+	overflow: hidden;
+	padding: 10px 0 0;
+}
+.flex-item .box>a{
+	display: block;
+	overflow: hidden;
+}
+.flex-item .title .title-name{
+	display: inline-block;
+	float: left;
+}
+.flex-item .title ul{
+	float: right;
+}
+.flex-item .title ul li{
+	float: left;
+	padding-left: 10px;
+	font-size: 16px;
+	color: #919191;
+}
+.flex-item  a{
+	color: #919191;
+}
+.flex-item .er-con-more{
+	padding: 10px 0 10px 5px;
+}
+.flex-item .er-con-more a,.flex-item .er-con-more a{
+	width: 55px;
+	height: 20px;
+	line-height: 18px;
+	padding: 0;
+    display: inline-block;
+    border: 1px solid #05a6b4;
+    border-radius: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #919191;
+    transition: 0.3s;
+}
+.flex-item .er-con-more a span,.flex-item .er-con-more a span{
+	display: inline-block;
+    background: #919191;
+    width: 20px;
+    border-radius: 50%;
+    top: -1px;
+    left: -6px;
+    color: #fff;
+    transition: 0.3s;
+}
+.flex-item .er-con-more a:hover span{
+	background: #00a4b3;
+}
+.flex-item .er-con-more a:hover{
+	background: transparent;
+	color: #919191;
+}
+.flex-item .title ul li a:hover{
+	color: #00a4b3;
+}
+
+.er-food-likes {
+    color: #ff5341;
+    float: right;
+}
+
+
+.flex-item:hover .box {
+	border: 1px solid #00a4b3;
+}
+.flex-item:hover .box .title{
+	color: #f60;
+}
+.flex-item:hover .box .info{
+	color: #666;
+}
+.flex-item:hover .box .imgbox{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.flex-item:hover .box .title-name{
+	color: #00a4b3;
+}
+
+
+.carousel {
+	position: relative;
+	width: 96%;
+	margin:0 auto;
+}
+
+.carousel-inner {
+	position: relative;
+	width: 100%;
+	overflow: hidden
+}
+
+.carousel-inner>.item {
+	position: relative;
+	display: none;
+	-webkit-transition: .6s ease-in-out left;
+	-o-transition: .6s ease-in-out left;
+	transition: .6s ease-in-out left
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+	line-height: 1
+}
+
+
+.carousel-inner>.active,
+.carousel-inner>.next,
+.carousel-inner>.prev {
+	display: block
+}
+
+.carousel-inner>.active {
+	left: 0
+}
+
+.carousel-inner>.next,
+.carousel-inner>.prev {
+	position: absolute;
+	top: 0;
+	width: 100%
+}
+
+.carousel-inner>.next {
+	left: 100%
+}
+
+.carousel-inner>.prev {
+	left: -100%
+}
+
+.carousel-inner>.next.left,
+.carousel-inner>.prev.right {
+	left: 0
+}
+
+.carousel-inner>.active.left {
+	left: -100%
+}
+
+.carousel-inner>.active.right {
+	left: 100%
+}
+
+.carousel-control {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 15%;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	background: url(../images/icons.png) no-repeat;
+}
+
+.carousel-control.left {
+	position: absolute;
+	width: 22px;
+	height: 45px;
+	left: -15px;
+	top: 50%;
+	margin-top: -20px;
+	font-size: 40px;
+	line-height: 30px;
+	background-position: -112px -20px;
+}
+
+.carousel-control.right {
+	
+	position: absolute;
+	left: auto;
+	width: 22px;
+	height: 45px;
+	right: -15px;
+	top: 50%;
+	margin-top: -20px;
+	font-size: 40px;
+	background-position: -150px -20px;
+	line-height: 30px;
+}
+
+/*师资力量图片样式结束*/
+} 

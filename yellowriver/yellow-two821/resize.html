@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>login</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- 图标 CSS-->
+    <link rel="stylesheet" href="fonts/font-awesome/font-awesome.css">
+    <link rel="stylesheet" href="fonts/web-icons/web-icons.css">
+    <link rel="stylesheet" href="fonts/font-awesomex/css/font-awesome.min.css">
+	<!-- css样式 -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="resize-box">
+		<div class="resize-head">
+			<div class="resize-logo">
+				<img src="images/logo1.png" alt="">
+			</div>
+			<div class="resize-has">
+				我已注册，现在就
+				<button class="login-sign">登录</button>
+			</div>
+		</div>
+		<div class="resize-content">
+			<form action="">
+				<div class="resize-username resize-inp">
+					<label for="">用户名</label>
+					<input type="text" placeholder="请设置用户名">
+				</div>
+				<div class="resize-email resize-inp">
+					<label for="">邮箱</label>
+					<input type="Email" placeholder="请输入邮箱">
+				</div>
+				<div class="resize-tel resize-inp">
+					<label for="">手机号</label>
+					<input type="text" placeholder="可用于登录和找回密码">
+				</div>
+				<div class="resize-num resize-inp">
+					<label for="">验证码</label>
+					<input type="text" placeholder="请输入验证码">
+				</div>
+				<div class="resize-psw resize-inp">
+					<label for="">密码</label>
+					<input type="password" placeholder="请设置登录密码">
+				</div>
+				<div class="resize-sub">
+					<button class="resize">注册</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="mask"></div>
+	<div class="login-pop">
+		<div class="login-head">
+			<img src="images/logo1.png" alt="">
+			<span class="login-close">&times;</span>
+		</div>
+		<div class="login-info">
+			<form action="">
+				<div class="login-username login-inp">
+					<label for=""><span class="fa-user"></span></label>
+					<input type="text" placeholder="请输入手机号/邮箱/帐户名" class="login-use">
+				</div>
+				<div class="login-psw login-inp">
+					<label for=""><span class="fa-unlock-alt"></span></label>
+					<input type="password" placeholder="请输入密码" class="login-use">
+				</div>
+				<div class="login-number login-inp">
+					<input type="text" placeholder="验证码" class="num-info">
+					<img src="" alt="验证码" class="num-info">
+					<a href="javascript:;" class="num-info login-a">换一张</a>
+				</div>
+				<div class="login-sub">
+					<button>登录</button>
+				</div>
+				<div class="login-resize">
+					<a href="resize.html" class="login-a">立即注册</a>
+				</div>
+			</form>
+		</div>
+
+	</div>
+	
+	<!-- 注册成功 -->
+	<div class="resize-over">
+		<span class="fa-check-circle"></span>注册成功<br/>
+		页面即将在 <span class="resize-seconds">5</span>秒后跳转至首页
+	</div>
+
+	<script src='js/jquery.min.js'></script>
+	<script src='js/plugin.js'></script>
+	<script src='js/impression.js'></script>
+</body>
+</html>

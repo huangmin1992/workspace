@@ -1,0 +1,56 @@
+.san-vcontent{
+	position: relative;
+	background: #f0f5f5;
+	padding:25px 0;
+}
+.san-vbox{
+	max-width: 1250px;
+	margin:0 auto;
+	padding: 30px 0 0 0;
+}
+.san-vbox:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+.flex-item .box{
+	background: #f0f5f5;
+}
+.flex-item:hover .box{
+	background: #fff;
+}
+.flex-item .title .title-name{
+	display: inline-block;
+	float: left;
+}
+.flex-item .title ul{
+	float: right;
+}
+.flex-item .title ul li{
+	float: left;
+	padding-left: 10px;
+	font-size: 16px;
+	color: #919191;
+}
+.flex-item  a{
+	color: #919191;
+}
+
+.flex-item .er-con-more a span{
+	display: inline-block;
+    background: #919191;
+    width: 20px;
+    border-radius: 50%;
+    top: -1px;
+    left: -6px;
+    color: #fff;
+}
+.flex-item .er-con-more a:hover{
+	background: transparent;
+}
+.flex-item .er-con-more a:hover span{
+	background: #00a4b3;
+}
+.flex-item .title ul li a:hover{
+	color: #00a4b3;
+}

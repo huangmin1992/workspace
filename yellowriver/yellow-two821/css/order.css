@@ -1,0 +1,368 @@
+.section{
+	position: relative;
+	background: #f0f5f5; 
+}
+.tour-about{
+	padding-bottom: 25px;
+}
+.tour-about .about-title{
+	padding-top:0;
+}
+.tour-about .er-menu{
+	margin:25px auto 0;
+}
+/*票务预订*/
+.tic-content,.er-rebox,.er-goods-box{
+	max-width: 1250px;
+	margin:0 auto;
+	padding-bottom: 35px;
+	padding-left: 1%;
+}
+.ticket-box .tic-nums{
+	padding-top: 15px;
+}
+.ticket-box table{
+	width: 70%;
+	table-layout: fixed;
+	border-spacing: none;
+	border-collapse: collapse;
+	margin:0 auto;
+}
+.ticket-box table tr td,
+.ticket-box table tr th{
+	height: 35px;
+	line-height: 35px;
+	border:1px solid #ddd;
+	text-align: center;
+	color: #555;
+	background: rgba(255,255,255,.3);
+}
+.ticket-box table tr td input[type=radio]{
+	vertical-align: middle;
+}
+.ticket-box table tr td .tic-money{
+	color: red;
+}
+.ticket-box table tr td input[type=text]{
+	width: 50px;
+	height: 20px;
+	color: #555;
+	margin-right: 5px;
+	text-align: center;
+}
+.tic-order{
+	width: 70%;
+	margin:0 auto;
+}
+.tic-info{
+	padding-top: 25px;
+}
+.tic-label,.tic-right{
+	float: left;
+}
+.tic-desc,.tic-right,.tic-right input{
+	height: 45px;
+	line-height: 45px;
+	background:  #f0f5f5;
+	outline: none;
+	vertical-align: middle;
+}
+.tic-right input{
+	background: rgba(255,255,255,.3);
+}
+.tic-remark .tic-label{
+	height: 100px;
+	line-height: 100px;
+}
+.tic-remark .tic-right textarea{
+	height: 100px;
+    resize: none;
+    border-color: #ddd;
+    outline: none;
+    background: rgba(255,255,255,.3);
+    width: 100%;
+    padding: 5px;
+}
+.tic-pay .tic-label{
+	border-right: 1px solid #ddd;
+}
+.tic-desc,.tic-right input{
+	border:1px solid #ddd;
+}
+.tic-label{
+	border-right: 0;
+}
+.tic-right input{
+	margin-top: -3px;
+	padding-left: 5px;
+}
+.tic-desc{
+	width: 15%;
+	text-align: center;
+	background: rgba(255,255,255,.5);
+}
+.tic-right{
+	width: 85%;
+}
+.tic-right input[type=text]{
+	width:100%;
+}
+.tic-names input[type=text]{
+	width: 20%;
+}
+.tic-right input[type=radio]{
+	margin-left: 5px;
+}
+.tic-times .tic-right{
+	width: 25%;
+}
+.tic-times .tic-label:nth-child(3){
+	margin-left: 10px;
+}
+.tic-times .tic-right input[type=text]{
+	width: 100%;
+}
+.datainp{ 
+	width:200px; 
+	height:30px; 
+	border:1px #A5D2EC solid;
+	padding-left: 10px;
+	line-height: 30px;
+}
+.datep{ 
+	margin-bottom:40px; 
+	line-height:24px; 
+	margin-right:15px;
+}
+.tic-times .tic-right input[type=text]{
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAQCAYAAADj5tSrAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAwNi8xNS8xNGnF/oAAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzVxteM2AAAAoElEQVQ4jWPceOnNfwYqAz9dYRQ+E7UtwAaGjyUsDAyYYUgJ2HT5LXZLcEmSCnA6duOlN///////H0bDALl8dPH/////Z8FuNW6Qtvw2nL3lyjsGBgYGhlmRqnj1kGwJuqHIlhJlCXq8EOITEsdqCXLEbbr8FisfFkTo+vBZRFZwERNEFFkCiw90nxJtCalxQmzegltCzVyP1RJq5HZ8AABuNZr0628DMwAAAABJRU5ErkJggg=="); 
+	background-repeat:no-repeat; 
+	background-position:right center;
+}
+.tic-number .tic-right input[type=text]{
+	width: 30%;
+}
+.tic-number .tic-right img{
+	width: 20%;
+	height: 45px;
+	margin-top: -3px;
+	border:1px solid #ddd;
+}
+.tic-notice{
+	padding-top:10px;
+	text-align: center;
+}
+
+.tic-btns{
+	text-align: center;
+	padding: 25px 0;
+}
+.tic-btns button{
+	cursor: pointer;
+}
+.tic-btns button:hover{
+	background: #01a4b3;
+	color: #fff;
+}
+.ticket-box table.check-box tr td.tic-btns,
+.persons-times{
+	padding:5px;
+}
+.ticket-box table.check-box tr td.tic-btns button{
+	height: 30px;
+	line-height: 30px;
+}
+/*酒店预订*/
+.er-hotel-list{
+	float: left;
+	height: 230px;
+	width: 24%;
+    margin: 0 1% 3% 0;
+	overflow: hidden;
+	position: relative;
+}
+.er-hotel-list .er-hotel-img{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	transition: 0.5s;
+}
+.er-hotel-list .er-hotel-img img{
+	height: 100%;
+}
+.er-hotel-list .er-hotel-txt{
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,0.7);
+	color: #fff;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 0 0 15px;
+	/*transition: 0.3s;*/
+}
+.er-hotel-list .er-hotel-txt .er-hotel-order{
+	float: right;
+	display: block;
+	background: #ff6000;
+	width: 35px;
+	text-align: center;
+}
+.er-hotel-info{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	color: #fff;
+	display: table;
+	padding: 0 10px;
+	line-height: 20px;
+	/*transition: 0.7s;*/
+	left: 100%;
+}
+.er-hotelbox{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.er-hotelbox .er-hotel-name{
+	padding: 5px 0;
+}
+.er-hotelbox .er-hotel-desc{
+	border-bottom: 1px dashed #fff;
+	border-top: 1px dashed #fff;
+	padding: 10px;
+	text-align: left;
+	font-size: 12px;
+	color: #cccbcb;
+	height: 75px;
+	overflow: hidden;
+}
+.er-hotelbox .er-hotel-btns .er-hotel-icons{
+	display: inline-block;
+	color: #fff;
+	height: 25px;
+	width: 25px;
+	line-height: 25px;
+	border-radius: 50%;
+	margin-top:10px;
+}
+.er-hotelbox .er-hotel-order{
+	margin-right: 15px;
+	background: #ff6600;
+}
+.er-hotelbox .er-hotel-maps{
+	background: #459200;
+}
+
+.er-hotel-list:hover .er-hotel-img{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.tic-info:after,.er-rebox:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+/*旅游服务*/
+.tic-tab{
+	text-align: center;
+	padding-top: 15px;
+}
+.tic-tab a{
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 25px;
+	border: 1px solid #ddd;
+	border-radius: 12px;
+	color: #555;
+}
+.tic-tab a:hover,.tic-tab a.active{
+	background: #01a4b3;
+	color: #fff;
+}
+.tic-feelings .tic-label,.tic-feelings .tic-right{
+	height: 100px;
+}
+.tic-feelings .tic-label{
+	line-height: 100px;
+}
+.tic-feelings .tic-right{
+	border: 1px solid #ddd;
+	text-align: center;
+}
+.tic-feelings .tic-right input[type=radio]{
+	line-height: 0;
+	height: 20px;
+	margin:0;
+}
+.tic-feelings .tic-right .feelings-info{
+	width: 12%;
+	float: left;
+	margin:1%;
+	line-height: 30px;
+}
+.tic-feelings .tic-right .feelings-info img{
+	width: auto;
+}
+/*留言回复*/
+.tic-content .tic-words{
+	margin-top: 15px;
+}
+.tic-content .tic-words tr td{
+	height: 45px;
+	line-height: 45px;
+}
+.tic-words .words-info{
+	text-align: left;
+	padding-left: 5px;
+	background: transparent;
+}
+.tic-words img{
+	width: 20px;
+	height: 20px;
+}
+.tic-words .tic-admin{
+	color: #00a4b3;
+}
+/*在线咨询*/
+.ticket-box table.check-box{
+	width: 80%;
+}
+.ticket-box table.check-box tr th{
+	color: #00a4b3;
+}
+.ticket-box table.check-box tr.check-info td{
+	text-align: left;
+	padding-left: 25px;
+}
+.tic-check{
+	padding-top:25px;
+}
+.ticket-box table.check-box span.check-totals{
+	color: red;
+	font-weight: 700;
+}
+.ticket-box table.check-box span.check-mens{
+	color: #00a4b3;
+}
+.ticket-box table.check-box span.check-percents{
+	color: #ff5722;
+}
+/*游客量查询*/
+.ticket-box table.tic-persons tr th{
+	color: #555;
+}
+.ticket-box table.tic-persons tr th span{
+	color: #00a4b3;
+}
+.persons-times input[type=text]{
+	width: 18% !important;
+	height: 30px !important;
+	padding-left: 0 !important;
+}

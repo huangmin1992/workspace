@@ -1,0 +1,1284 @@
+.about,.er-news,.er-nlist,.er-food,.san-nlist,.san-content,.san-vcontent{
+	background-color: #f0f5f5;
+	position: relative;
+}
+.er-cul-content,.er-maps-content,.er-full-contentn,
+.er-bea-content,.er-food-content,.er-near-content,
+.er-goods-content,.er-recontent,.er-hotel-content,
+.er-tour-box,.san-box,.san-vbox{
+	max-width: 1250px;
+	margin:0 auto;
+}
+
+
+/*二级*/
+/*走进黄鹤湖*/
+/*about*/
+.about{
+	width: 100%;
+	height: auto;
+	background-image:  url(../images/about-bg1.png),url(../images/about-bg2.png);
+	background-repeat: no-repeat no-repeat;
+	background-position: left center,right center;
+}
+.er-con-info{
+	height: 170px;
+	overflow: hidden;
+}
+.er-content-info{
+	float: left;
+}
+.er-content-txt{
+	width: 68%;
+	line-height: 28px;
+	padding:0 1.5% 0 0.5%;
+}
+.er-content-txt .er-con-title{
+	padding: 15px 0;
+}
+.er-content-txt .er-con-title .hdjbaosong{
+	font-size: 24px;
+	color: #00a4b3;
+	float: left;
+}
+.er-content-txt .er-con-title span:nth-child(2){
+	font-size: 12px;
+	float: left;
+	line-height: 13px;
+}
+.er-content-img{
+	width: 30%;
+	height: 308px;
+	text-align: center;
+	overflow: hidden;
+}
+.er-content-img img{
+	width: 100%;
+	vertical-align: middle;
+}
+/*culture*/
+/*文化=culture*/
+.er-culture{
+	width: 100%;
+	height:715px;
+	background: url(../images/culture.jpg) center no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.er-cul-line{
+	width: 100%;
+	height: 454px;
+	background: url(../images/culture-line.png) center no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 50%;
+	margin-top: -217px;
+}
+.er-cul-title{
+	line-height: 28px;
+	text-align: center;
+	padding-top: 25px;
+}
+.er-cul-title p:nth-child(1){
+	font-size: 20px;
+	color: #596d73;
+}
+.er-cul-title p:nth-child(3){
+	font-size: 15px;
+	color: #6f7f7f;
+}
+.er-cul-content{
+	position: relative;
+	height: 454px;
+}
+.er-cul-circle{
+	position: absolute;
+	border-radius: 50%;
+	border:1px solid rgba(255,255,255,0.5);
+	overflow: hidden;
+	padding: 10px;
+	transition: 0.8s;
+	text-align: center;
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	-o-transform: scale(0);
+	transform: scale(0);
+}
+.er-cul-content .er-one{
+	height: 313px;
+	width: 313px;
+	top: 180px;
+	transition-delay: 0.7s;
+}
+.er-cul-content .er-two{
+	height: 237px;
+	width: 237px;
+	top: 50px;
+    left: 28%;
+    transition-delay: 1s;
+}
+.er-cul-content .er-three{
+	height:183px;
+	width:183px;
+	right: 34%;
+    top: 150px;
+    transition-delay: 1.3s;
+}
+.er-cul-content .er-four{
+	height: 283px;
+	width: 283px;
+	right: 3%;
+    top: 95px;
+    transition-delay: 1.6s;
+}
+.er-cul-content .er-cul-circle .er-circle-img{
+	width: 100%;
+	height: 100%;
+	border:1px solid rgba(255,255,255,0.7);
+	overflow: hidden;
+	border-radius: 50%;
+}
+.er-cul-content .er-cul-circle .er-circle-img img{
+	height: 100%;
+	transition: 0.5s;
+}
+.er-cul-content .er-cul-circle:hover{
+	border-color: #00a4b3;
+}
+.er-cul-content .er-cul-circle:hover .er-circle-img img{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.er-cul-txt .er-con-more a{
+	color: #fff;
+}
+
+
+/*wenzi*/
+.er-cul-txt{
+	color: #fff;
+	line-height: 28px;
+	width: 35%;
+	position: absolute;
+	bottom: 85px;
+    left: 34%;
+}
+.er-cul-info{
+	height: 85px;
+	overflow:hidden;
+}
+/*地理位置*/
+.er-maps{
+	width: 100%;
+	height:530px;
+	background: #f0f5f5;
+}
+.er-maps-content{
+	height: auto;
+	padding: 42px 0;
+}
+.er-maps .er-maps-desc{
+	float: left;
+}
+.er-maps .er-maps-box{
+	width: 80%;
+	border: 1px solid #dedede;
+	height: 446px;
+}
+.er-maps-info{
+	color: #919191;
+	line-height: 28px;
+	padding:15px 0 0 15px;
+}
+.er-maps-info .er-maps-title span.er-maps-name{
+	color: #4d6369;
+	font-size: 18px;
+	padding-right:10px;
+}
+.er-maps-info p:nth-child(1){
+	border-bottom: 1px dashed #7f7f7f;
+	position: relative;
+}
+.er-maps-info p:nth-child(1):after{
+	display: block;
+	content: '';
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	border: 1px solid #bcbebe;
+	position: absolute;
+	right: 0px;
+    bottom: -5px;
+    background: #f0f5f5;
+}
+.er-maps-info p:nth-child(2){
+	padding: 15px 0 30px 0;
+}
+.er-maps-tel .er-maps-img{
+	width: 100px;
+	height: 100px;
+	border:1px solid #bcbebe;
+	border-radius: 50%;
+	margin:0 auto;
+	background: url(../images/15.png) center no-repeat;
+}
+.er-maps-tel .er-tel-info{
+	padding: 20px 0;
+}
+
+
+.er-maps-content:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+
+/*景区影像*/
+.er-full-contentn,
+.er-bea-content{
+	position: relative;
+	height: 100%;
+}
+
+/*720全景*/
+.er-full-screen{
+	width: 100%;
+	height: 560px;
+	position: relative;
+}
+.er-screen-box{
+	background: #fff;
+	width: 286px;
+	height: 100%;
+	position: absolute;
+	-webkit-transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	transform: skew(-20deg);
+	left: 50%;
+	margin-left: 235px;
+}
+.er-screen-txt{
+	position: absolute;
+	left: 66%;
+	top: 20%;
+	color: #919191;
+}
+.er-screen-txt h4{
+	font-size: 30px;
+	color: #00a4b3;
+	font-weight: normal;
+}
+.er-screen-txt p{
+    position: relative;
+	right: 66px;
+}
+.er-screen-txt .er-view-more{
+	text-align: left;
+    margin-left: -30px;
+}
+/*美景美图*/
+.er-bea-content{
+	padding-left: 1%;
+	padding-top: 25px;
+}
+.er-bea{
+	height: auto;
+	width: 100%;
+	min-height: 400px;
+	position: relative;
+	padding-bottom: 20px;
+}
+.er-bea-list{
+	display: block;
+	float: left;
+	width: 24%;
+	height: 212px;
+	box-sizing: border-box;
+	margin:0 1% 1% 0;
+	overflow: hidden;
+	position: relative;
+}
+.er-bea-list a{
+	color: #fff;
+	display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.er-bea-img{
+	width: 100%;
+	height: 100%;
+	background: url(../images/4.jpg) center no-repeat;
+	background-size: auto 100%; 
+	transition: 0.4s;
+}
+.er-bea-text{
+	position: absolute;
+	bottom: -30px;
+	background: rgba(0,0,0,0.7);
+	height: 30px;
+	width: 100%;
+	line-height: 30px;
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+	transition: 0.4s;
+	display: table;
+}
+.er-cell{
+	display: table-cell;
+	vertical-align: middle;
+}
+.er-bea-more{
+	color: #00a4b3;
+}
+.er-bea-list:hover .er-bea-img{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.er-bea-list:hover .er-bea-text{
+	height: 100%;
+	bottom: 0;
+	/*padding-top: 20%;*/
+}
+.er-view-more{
+	text-align: center;
+	padding-top: 25px;
+}
+
+.er-bea-content:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+
+
+/*吃喝玩乐*/
+.er-tour,.er-goods,.er-food{
+	height: auto;
+	padding-bottom: 25px;
+}
+/*美食*/
+.er-food{
+	padding-top: 25px;
+}
+.er-food-content,
+.er-near-content,
+.er-goods-content,
+.er-recontent{
+	padding-top: 25px;
+}
+.er-food-content .er-food-left,
+.er-food-content .er-food-right{
+	float: left;
+	height: 535px;
+	overflow: hidden;
+	position: relative;
+}
+.er-food-content .er-food-left{
+	width:32.8%;
+	margin-right: 1%;
+}
+.er-food-content .er-food-right{
+	width:65.2%;
+	padding-left:1.5%;
+}
+.er-food-txt-info{
+	height: 40px;
+	overflow: hidden;
+}
+.er-food-img{
+	width: 100%;
+	height: 100%;
+}
+.er-food-img img{
+	transition: 0.3s;
+	height: 100%;
+}
+.er-food-left .er-food-txt{
+	position: absolute;
+	bottom: 0;
+	background: rgba(255,255,255,0.8);
+	height: 100px;
+	padding: 15px;
+	transition: 0.5s;
+}
+.er-food-txt{
+	font-size: 12px;
+	line-height: 20px;
+	color: #919191;
+	transition: 0.3s;
+	padding: 5px;
+}
+.er-food-txt .er-food-title{
+	padding-bottom: 5px;
+}
+.er-food-txt .er-food-title span.er-food-name{
+	color: #555;
+	font-size: 16px;
+	float: left;
+	transition: 0.3s;
+}
+.er-food-txt .er-food-title .er-food-likes{
+	color: #ff5341;
+	float: right;
+}
+.er-food-left:hover .er-food-img{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.er-food-left:hover .er-food-txt{
+	display: table;
+	height: 100%;
+}
+.er-food-left:hover .er-foot-txt-box{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.er-food-list{
+	float: left;
+	width: 31.83%;
+	margin:0 1.5% 2.6% 0;
+	overflow: hidden;
+	position: relative;
+	border:1px solid #e3e6e6;
+	background: #fff;
+}
+.er-food-list .er-food-img{
+	height: 165px;
+	overflow: hidden;
+}
+.er-food-list .er-food-txt{
+	height: 90px;
+}
+.er-food-content .er-con-more{
+	text-align: center;
+	padding-top: 30px;
+	clear: both;
+}
+.er-food-list:hover .er-food-img img{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.er-food-list:hover span.er-food-name{
+	color: #00a4b3;
+}
+.er-food-list:hover .er-food-txt{
+	color: #555;
+}
+
+/*酒店住宿*/
+.er-hotel-content{
+	padding-top: 75px;
+	overflow: hidden;
+}
+.er-hotel-left,
+.er-hotel-right{
+	position: relative;
+}
+.er-hotel-left{
+	float: left;
+	width: 49.2%;
+}
+.er-hotel-right{
+	float: right;
+	width:44.8%;
+	height: 500px;
+}
+.er-hotel-list{
+	float: left;
+	width: 47%;
+	height: 230px;
+	margin: 0 3% 3% 0;
+	overflow: hidden;
+	position: relative;
+}
+.er-hotel-list .er-hotel-img{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	transition: 0.5s;
+}
+.er-hotel-list .er-hotel-img img{
+	height: 100%;
+}
+.er-hotel-list .er-hotel-txt{
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,0.7);
+	color: #fff;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 0 0 15px;
+	/*transition: 0.3s;*/
+}
+.er-hotel-list .er-hotel-txt .er-hotel-order{
+	float: right;
+	display: block;
+	background: #ff6000;
+	width: 35px;
+	text-align: center;
+}
+.er-hotel-info{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	color: #fff;
+	display: table;
+	padding: 0 10px;
+	line-height: 20px;
+	/*transition: 0.7s;*/
+	left: 100%;
+}
+.er-hotelbox{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.er-hotelbox .er-hotel-name{
+	padding: 5px 0;
+}
+.er-hotelbox .er-hotel-desc{
+	border-bottom: 1px dashed #fff;
+	border-top: 1px dashed #fff;
+	padding: 10px;
+	text-align: left;
+	font-size: 12px;
+	color: #cccbcb;
+	height: 75px;
+	overflow: hidden;
+}
+.er-hotelbox .er-hotel-btns .er-hotel-icons{
+	display: inline-block;
+	color: #fff;
+	height: 25px;
+	width: 25px;
+	line-height: 25px;
+	border-radius: 50%;
+	margin-top:10px;
+}
+.er-hotelbox .er-hotel-order{
+	margin-right: 15px;
+	background: #ff6600;
+}
+.er-hotelbox .er-hotel-maps{
+	background: #459200;
+}
+
+.er-hotel-list:hover .er-hotel-img{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.er-hotel-rimg,
+.er-hotel-rname,
+.er-hotel-more{
+	position: absolute;
+	text-align: center;
+	cursor: pointer;
+}
+
+.er-hotel-more:hover .er-rmore-bg{
+	 -webkit-transform: scale(1.1) rotate(-45deg);
+    -ms-transform: scale(1.1) rotate(-45deg);
+    -o-transform: scale(1.1) rotate(-45deg);
+    transform: scale(1.1) rotate(-45deg);
+    box-shadow: 0 0 5px #00a4b3;
+}
+.er-hotel-rimg{
+	width: 171px;
+	height: 168px;
+	background: url(../images/hotel-02.png) center no-repeat;
+	background-size: cover;
+	top: 36%;
+    left: 11%;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    transition: 0.5s;
+}
+.er-hotel-rname{
+	width: 244px;
+	height: 248px;
+	right: 12%;
+	top: 10%;
+}
+.er-hotel-rname .er-rname-bg,
+.er-hotel-more .er-rmore-bg{
+	width: 100%;
+	height: 100%;
+	-webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+	transition: 0.5s;
+}
+.er-hotel-rname .er-rname-bg{
+	background: url(../images/hotel-01.png) center no-repeat;
+	background-size: cover;
+}
+
+.er-hotel-more{
+	width: 132px;
+	height: 130px;
+	top: 60%;
+    left: 37%;
+}
+.er-hotel-more .er-rmore-bg{
+	background: url(../images/hotel-03.png) center no-repeat;
+	background-size: cover;
+}
+.er-hotel-rname .about-title,
+.er-hotel-more a{
+	display: block;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+.er-hotel-more a{
+	color: #00a4b3;
+	height: 20px;
+	top: 0;
+	padding-top: 40%;
+}
+.er-hotel-rname .about-title{
+	padding-top: 0;
+	top: 0;
+	padding-top: 37%;
+}
+.er-hotel-rname .about-title p{
+	opacity: 1;
+}
+/*旅游出行*/
+.er-tour{
+	width: 100%;
+	position: relative;
+}
+/* .er-tour .about-title,
+.er-goods .about-title,
+.er-relax .about-title{
+	padding-top:45px;
+} */
+.er-tour-content{
+	width: 100%;
+	margin-top: 20px;
+	border:1px dashed #c0c4c4;
+	border-right: 0;
+	border-left: 0;
+}
+.er-tour-box .er-tour-left,
+.er-tour-box .er-tour-right{
+	width: 50%;
+	float: left;
+	position: relative;
+	min-height: 145px;
+	color: #919191;
+	padding: 10px;
+}
+.er-tour-line{
+	width: 100%;
+	border-top:1px dashed #c0c4c4;
+}
+.er-tour-box .er-tour-left{
+	border-right:1px dashed #c0c4c4;
+}
+.er-tour-box .er-tour-left:after,
+.er-tour-box:nth-child(1) .er-tour-right:after{
+	display: block;
+	content: '';
+	width: 10px;
+	height: 10px;
+	border:1px solid #c0c4c4;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	position: absolute;
+    z-index: 1;
+    background: #f0f5f5;
+}
+.er-tour-box .er-tour-left:after{
+    right: -6px;
+    bottom: -6px;
+}
+.er-tour-box:nth-child(1) .er-tour-right:after{
+	top: -6px;
+	left: -6px;
+}
+
+.er-tour-left .er-con-more a:hover,
+.er-tour-right .er-con-more a:hover{
+	transition: 0.3s;
+	background: #00a4b3;
+	border-color: #00a4b3;
+	color: #fff;
+}
+.er-tour-left h4,
+.er-tour-right .er-rnav{
+	font-size: 18px;
+	color: #444;
+	font-weight: normal;
+	height: 45px;
+	line-height: 45px;
+}
+.er-tour-right .er-rnav{
+	color: #b1b1b1;
+}
+.er-tour-txt{
+	line-height: 20px;
+	font-size: 12px;
+	height: 40px;
+	overflow: hidden;
+}
+.er-tour-box .er-con-more{
+	padding-top: 15px;
+}
+.er-tour-cars{
+	line-height: 28px;
+}
+.er-tour-cars a{
+	color: #919191;
+}
+.er-tour-cars a .er-tour-date{
+	font-size: 12px;
+	color: #bbb;
+	padding-left: 15px;
+}
+.er-tour-cars a:hover,
+.er-tour-cars a:hover .er-tour-date{
+	color: #555;
+}
+.er-tour-box .er-tour-right{
+	padding-left: 25px;
+}
+.er-tour-right .er-rnav li{
+	float: left;
+	position: relative;
+	cursor: pointer;
+	width: 60px;
+}
+.er-tour-right .er-rnav li:first-child:after{
+	display: block;
+	content: '/';
+	position: absolute;
+	color:  #00a4b3;
+	top: 0;
+	left: 75%;
+}
+.er-tour-right .er-rnav li.active{
+	color: #444;
+}
+.er-tour-info{
+	display: none;
+}
+.er-tour-info.active{
+	display: block;
+}
+.er-tour-info .er-tour-ihead{
+	height: 80px;
+	overflow: hidden;
+}
+.er-tour-info .er-tour-ihead img,
+.er-tour-info .er-tour-ihead a{
+	float: left;
+	display: inline-block;
+}
+.er-tour-info .er-tour-ihead img{
+	width: 21%;
+	height: 76px;
+	vertical-align: middle;
+}
+.er-tour-info .er-tour-ihead a{
+	width: 79%;
+	padding-left: 2%;
+	line-height: 25px;
+}
+.er-tour-info .er-tour-ihead a span.er-ihead-title{
+	font-size: 14px;
+	color: #586d72;
+}
+.er-tour-info .er-tour-ihead a span.er-ihead-txt{
+	font-size: 12px;
+	height: 42px;
+    overflow: hidden;
+}
+.er-tour-info .er-tour-ihead a span.er-tour-date{
+	float: right;
+}
+/*周边旅游*/
+.er-near-txt{
+	text-align: center;
+	width: 65.6%;
+	margin: 0 auto;
+	padding-bottom:25px;
+}
+.flex-item .box{
+	background:transparent;
+}
+.flex-item:hover .box{
+	background: #fff;
+}
+.flex-item .title .title-name{
+	display: inline-block;
+	float: left;
+}
+.flex-item .title ul{
+	float: right;
+}
+.flex-item .title ul li{
+	float: left;
+	padding-left: 10px;
+	font-size: 16px;
+	color: #919191;
+}
+
+
+/*特色产品*/
+.er-goods-box{
+	padding-left: 2%;
+}
+.er-goods-box .er-food-list{
+	width: 23%;
+}
+/*休闲娱乐*/
+.er-rebox{
+	padding:25px 0;
+}
+.er-rebox{
+	padding-left: 1%;
+}
+.er-rebox .er-hotel-list{
+	width: 24%;
+	margin: 0 1% 3% 0;
+}
+
+.er-food-content:after,.er-food-txt .er-food-title:after,.er-hotel-content:after,
+.er-tour-box:after,.er-tour-ihead:after,.er-rebox:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+
+
+/*新闻*/
+.er-news,.er-nlist{
+	padding: 35px 0;
+}
+.er-nlist{
+	padding: 0;
+	overflow: hidden;
+}
+.er-nbox,.er-nlist-box{
+	max-width: 1250px;
+	margin: 0 auto;
+}
+/*最新动态*/
+/*左右方向*/
+.con-news .news-left .news-der{
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	right: 10px;
+	margin-top: -23px;
+	z-index: 111;
+}
+.con-news .news-left .news-der .news-mao{
+	display: none;
+	cursor: pointer;
+	position: absolute;
+	font-size: 40px;
+    color: #00a4b3;
+    text-align: center;
+}
+.con-news .news-left .news-der .news-lefts{
+	left: 0; 
+}
+.con-news .news-left .news-der .news-rights{
+	right: 0;
+}
+.con-news{
+	padding-top: 35px;
+}
+.con-news .news{
+	float: left;
+	box-sizing: border-box;
+	position: relative;
+}
+.con-news .news-left{
+	margin-right: 2%;
+	width: 40%;
+	height: 362px;
+	overflow: hidden;
+}
+.con-news .news-left ul li{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.con-news .news-left ul li:nth-child(1){
+	display: block;
+}
+.con-news .news-left ul li .news-bg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(../images/food1.jpg) center no-repeat;
+	background-size: cover;
+	transition: 0.5s;
+}
+.con-news .news-left ul li:nth-child(2) .news-bg{
+	background: url(../images/food2.jpg) center no-repeat;
+	background-size: cover;
+}
+.con-news .news-left ul li .news-txt{
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
+	z-index: 11;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	bottom: 0;
+	/*transition: 0.5s;*/
+	display: table;
+	height: 70px;
+	padding: 5px 5px 5px 8px;
+}
+.con-news .news-left ul li .news-txt p{
+	display: table-cell;
+	vertical-align: middle;
+}
+.con-news .news-left ul li:hover .news-bg{
+	transform: scale(1.1);
+}
+.con-news .news-left ul li:hover p span.news-txt-info,
+span.news-txt-info.active{
+	color:#FFEB3B;
+}
+/* .con-news .news-left ul li:hover .news-txt{
+	height: 100%;
+} */
+.con-news .news-left ul li .news-txt p span.pic-news-info{
+	display: inline-block;
+	text-indent: 24px;
+	color: #ddd;
+	height: 40px;
+	line-height:20px;
+	overflow: hidden;
+	font-size: 12px;
+	margin-top: 5px;
+}
+span.news-txt-info{
+	display: block;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: 0.3s;
+}
+span.news-txt-info.active{
+	width: 100%;
+	white-space: normal;
+}
+.con-news .news-right{
+	width: 58%;
+	border:1px solid #ddd;
+	height: 362px;
+	background: #e8e8e8;
+}
+.con-news .news-right ul li{
+/*	padding:0 15px;*/
+	background: #f0f5f5;
+}
+.con-news .news-right ul li .news-title{
+	height: 40px;
+	border-bottom: 1px dashed #ddd;
+	line-height: 40px;
+	font-size: 14px;
+	cursor: pointer;
+	color: #555;
+	padding: 0 15px;
+}
+.con-news .news-right ul li:last-child .news-title{
+	border: 0;
+}
+.con-news .news-right ul li .news-title .er-news-date{
+	float: right;
+}
+.con-news .news-right ul li .news-info{
+	/*display: none;*/
+	line-height: 23px;
+	text-indent: 24px;
+	padding: 0px 15px;
+	font-size: 12px;
+	height: 0;
+	overflow: hidden;
+}
+.news-info a{
+	color: #8e8e8e;
+	display: block;
+    height: 100%;
+    width: 100%;
+}
+.con-news .news-right ul li .news-info span,
+.er-nlist-info .er-nlist-foot .er-nlist-more span{
+	color: #00a4b3
+}
+.con-news .news-right ul li.active{
+	background: #e8e8e8;
+}
+
+.con-news .news-right ul li.active .news-title span:nth-child(1){	
+	color: #00a4b3
+}
+ .con-news .news-right ul li:nth-child(1) .news-info{
+/*	display: block;*/
+	height: 80px;
+	overflow: hidden;
+	padding: 5px 15px;
+} 
+.con-news  .more-txt a{
+	margin-top: 20px;
+}
+/*新闻详情列表*/
+.er-nlist-info{
+	float: left;
+	width: 49%;
+	border: 1px solid #ddd;
+	margin: 0 2% 2% 0;
+	padding:0 15px;
+	height: 160px;
+	position: relative;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.er-nlist-info:nth-of-type(even){
+	margin-right: 0;
+}
+.er-nlist-info h4{
+	font-size: 15px;
+	font-weight: normal;
+	height: 40px;
+	line-height: 40px;
+	color: #555;
+}
+.er-nlist-info .er-nlist-txt{
+	font-size: 12px;
+	color: #919191;
+	text-indent: 24px;
+	line-height: 20px;
+	height: 80px;
+	overflow: hidden;
+}
+.er-nlist-info .er-nlist-txt img{
+	float: left;
+	width: 120px;
+	height: 80px;
+	padding-right: 10px;
+}
+
+.er-nlist-info .er-nlist-foot{
+	clear: both;
+	font-size: 12px;
+	height: 35px;
+	line-height: 35px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-right:30px;
+}
+.er-nlist-info .er-nlist-foot .er-nlist-date{
+	float:left;
+	color: #666;
+}
+.er-nlist-info .er-nlist-foot .er-nlist-more{
+	float: right;
+}
+
+.er-nlist-info:hover{
+	background: #fff;
+	border-color: #00a4b3;
+}
+.er-nlist-info:hover .er-nlist-txt{
+	color: #555;	
+}
+.er-nlist-info:hover h4{
+	color: #00a4b3;
+}
+
+.er-nbox:after,.con-news:after,.er-nlist-foot:after,.er-nlist:after,.er-nlist-box:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+
+/*三级*/
+/*新闻详情列表*/
+.san-nlist{
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+.san-nlist .er-menu{
+	margin: 35px auto;
+}
+.er-nbox,.er-nlist-box{
+	max-width: 1250px;
+	margin: 0 auto;
+}
+/*景区景点*/
+.san-box .san-search{
+	text-align: center;
+	line-height: 35px;
+	position: relative;
+	padding: 25px 0;
+}
+.san-box .san-search:after{
+	position: absolute;
+	display: block;
+	content: '';
+	width: 100%;
+	border-top: 1px dashed #a1a2a2;
+	top: 50%;
+}
+.san-box .san-search a{
+	display: inline-block;
+	color: #555;
+	border-radius: 25px;
+	border: 1px solid #c3c3c3;
+	padding:0 13px;
+	background: #e9e9e9;
+}
+.san-box .san-search a span{
+	font-size: 20px;
+	padding-right: 5px;
+    vertical-align: middle;
+}
+.san-box .san-search a,
+.san-box .san-search audio{
+	position: relative;
+	z-index: 10;
+}
+.san-box .san-search audio{
+	margin:0 15px;
+}
+.san-box .er-about-content{
+	padding: 0 10px 20px;
+}
+.san-box .san-impre-txt{
+	padding-top: 25px;
+}
+.flex-item  .img-box{
+	display: block;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.flex-item:hover .er-bea-text{
+	height: 100%;
+	bottom: 0;
+}
+/*景区景点列表*/
+.san-vcontent{
+	position: relative;
+	background: #f0f5f5;
+	padding:25px 0;
+}
+.san-vbox{
+	padding: 15px 0 0 0;
+}
+.san-vbox:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+
+
+
+
+
+@media screen and (max-width: 1445px) {
+	.about{
+		background-position: -10% center,115% center;
+	}
+	.er-cul-txt{
+		width: 50%;
+		bottom: 15%;
+    	left: 28%;
+	}
+	.er-screen-txt{
+		left: 72%;
+	}
+}
+@media screen and (max-width: 1036px) {
+	.about{
+		background:#f0f5f5;
+	}
+	/*文化*/
+	.er-cul-content .er-one{
+		height: 200px;
+	    width: 200px;
+	    top: 55%;
+	    left: 13%;
+	}
+	.er-cul-content .er-two{
+		height: 170px;
+	    width: 170px;
+	    top: 18%;
+	    left: 30%;
+	}
+	.er-cul-content .er-three{
+		height: 140px;
+	    width: 140px;
+	}
+	.er-cul-content .er-four{
+		height: 190px;
+	    width: 190px;
+	    right: 10%;
+	    top: 30%;
+	}
+	.er-cul-txt{
+		width: 62%;
+		left: 35%;
+		bottom:12%;
+	}
+	/*景区印象*/
+	.er-screen-box{
+		margin-left: 108px;
+	}
+	/*吃喝玩乐*/
+	.er-hotel-rimg{
+		width: 140px;
+	    height: 140px;
+	    top: 38%;
+	    left: 13%;
+	}
+	.er-hotel-rname{
+	    width: 190px;
+	    height: 190px;
+	    top: 20%;
+	    right: 10%;
+	}
+	.er-hotel-more{
+	    width: 100px;
+	    height: 100px;
+	    top: 58%;
+	    left: 41%;
+	}
+}

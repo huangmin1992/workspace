@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>景区景点</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- 图标 CSS-->
+    <link rel="stylesheet" href="fonts/font-awesome/font-awesome.css">
+    <link rel="stylesheet" href="fonts/web-icons/web-icons.css">
+    <link rel="stylesheet" href="fonts/font-awesomex/css/font-awesome.min.css">
+	<!-- css样式 -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+	<!-- <link rel="stylesheet" href="css/view-video.css"> -->
+	<link rel="stylesheet" href="css/zonghe.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/jquery.js"></script>
+</head>
+<body>
+	<!-- nav -->
+	<nav>
+		<div class="er-logos">
+			<img src="images/logo1.png" alt="">
+		</div>
+		<div class="er-nav-list">
+			<ul>
+				<li class="er-nav-info active er-nav-first"><span></span>景区状况</li>
+				<li class="er-nav-info"><span></span>美景美图</li>
+				<li class="er-nav-info"><span></span>景区文化</li>
+				<li class="er-nav-info"><span></span>资讯/活动</li>
+				<li class="er-nav-info"><span></span>吃喝玩乐</li>
+				<li class="er-nav-info"><span></span>旅游服务</li>
+				<li class="er-nav-info"><span></span>预定中心</li>
+				<li class="er-nav-info"><span></span>魅力内江</li>
+			</ul>
+		</div>
+		<div class="nav nav-menu">
+			<ul>
+				<li class="nav-list nav-lang">
+					<span>中文</span>
+					<div class="lang-info">
+						<ul>
+							<li class="line"></li>
+							<li>
+								<span></span>
+								CH
+							</li>
+							<li>
+								<span></span>
+								EN
+							</li>
+							<li>
+								<span></span>
+								JP
+							</li>
+							<li>
+								<span></span>
+								KR
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="nav-list nav-screen nav-bg" onclick="fullScreen()">
+					<span class="full-icon"></span>
+					<span class="full-screen">全屏</span>
+				</li>
+				<li class="nav-list nav-home nav-bg">
+					<span class="home-icon"></span>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- banner -->
+	<div class="section banner-box">
+		<div class="banner" style="	width: 100%;height: 100%;	background: url(images/banner2.jpg) center no-repeat;background-size: cover;"></div>
+		<div class="nav-box">
+			<div class="logo"></div>
+			<div class="nav nav-menu">
+				<ul>
+					<li class="nav-list nav-lang">
+						<span class="lang-mores"></span>
+						<span>中文</span>
+						<div class="lang-info">
+							<ul>
+								<li class="line"></li>
+								<li>
+									<span></span>
+									CH
+								</li>
+								<li>
+									<span></span>
+									EN
+								</li>
+								<li>
+									<span></span>
+									JP
+								</li>
+								<li>
+									<span></span>
+									KR
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="nav-list nav-screen nav-bg" onclick="fullScreen()">
+						<span class="full-icon"></span>
+						<span class="full-screen">全屏</span>
+					</li>
+					<li class="nav-list nav-home nav-bg">
+						<span class="home-icon"></span>
+					</li>
+					<li class="nav-list nav-navbar nav-bg">
+						<span class="nav-lan"></span>
+						栏目导航
+					</li>
+				</ul>
+			</div>
+			<div class="menu nav-menu">
+				<ul>
+					<li class="menu-first">景区状况</li>
+					<li class="menu-info"><span></span>美景美图</li>
+					<li class="menu-info"><span></span>景区文化</li>
+					<li class="menu-info"><span></span>资讯/活动</li>
+					<li class="menu-info"><span></span>吃喝玩乐</li>
+					<li class="menu-info"><span></span>旅游服务</li>
+					<li class="menu-info"><span></span>预定中心</li>
+					<li class="menu-info"><span></span>魅力内江</li>
+				</ul>
+			</div>
+		</div>
+		<div class="banner-txt">
+			<p class="banner-name hdjbaosong animate-top">画仙故里·诗画田园</p>
+			<p class="banner-desc hdjbaosong animate-top">[ 水色湖光，碧波映霓裳，观尚腾，老村新颜欢笑流淌 ]</p>
+			<p class="banner-eg animate-top">Beautiful scenery</p>
+		</div>
+		<div class="banner-title">
+			<div class="banner-title-info">
+				<p class="banner-title-name">印象黄鹤湖</p>
+				<p class="banner-title-eg">Impression HUANG HE HU</p>
+				<div class="banner-more">
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<div class="banner-line"></div>
+	</div>
+	<!-- about -->
+	<div class="section about about-box pages1">
+		<div class="er-menu txtdl1">
+			<ul class="er-list">
+				<li class="er-nav active" name='section1'>
+					<a href="javascript:;">
+						<div class="max-circle">
+							<div class="min-circle">
+								<span class="cir-txt">景区概况</span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="er-line"><span></span></li>
+				<li class="er-nav" name='section2'>
+					<a href="javascript:;">
+						<div class="max-circle">
+							<div class="min-circle">
+								<span class="cir-txt">景区概况</span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="er-line"><span></span></li>
+				<li class="er-nav" name='section3'>
+					<a href="javascript:;">
+						<div class="max-circle">
+							<div class="min-circle">
+								<span class="cir-txt">景区概况</span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="er-line"><span></span></li>
+				<li class="er-nav" name='section4'>
+					<a href="javascript:;">
+						<div class="max-circle">
+							<div class="min-circle">
+								<span class="cir-txt">景区概况</span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="er-line"><span></span></li>
+				<li class="er-nav">
+					<a href="javascript:;">
+						<div class="max-circle">
+							<div class="min-circle">
+								<span class="cir-txt">景区概况</span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="er-line"><span></span></li>
+				<li class="er-nav">
+					<a href="javascript:;">
+						<div class="max-circle">
+							<div class="min-circle">
+								<span class="cir-txt">景区概况</span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="er-line"><span></span></li>
+				<li class="er-nav">
+					<a href="javascript:;">
+						<div class="max-circle">
+							<div class="min-circle">
+								<span class="cir-txt">景区概况</span>
+							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="about-title">
+			<p class="hdjbaosong txtdl2">景区景点</p>
+			<p class="banner-eg txtdl3">Scenic Attractions</p>
+		</div>
+		<div class="er-about-content txtdl4">
+			<div class="picbox">						
+					<div id="simple-content-carousel" class="carousel flexible slide" data-ride="carousel" data-interval="5000" data-wrap="true">								
+						<div class="items" >						
+							<div class="flex-item">
+								<a href="javascript:;">
+									<div class="box">
+										<div class="imgbox" style="background: url(images/4.jpg) center center no-repeat;background-size:cover ;">
+											<div class="ch1"></div>
+										</div>
+										<div class="title">
+											<span class="title-name">游客中心</span>
+											<ul>
+												<li>
+													<a href="javascript:;">
+														<span class="fa-eye"></span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;">
+														<span class=" fa-volume-up"></span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;">
+														<span class=" fa-play-circle-o"></span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;">
+														<span class="fa-map-marker"></span>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="info">
+											<p>坚持“以人为本”、“健康第一”的指导思想，注重“理论与实践结合，教学与科研并重”的宗旨记注重“理论与实践结合，教学与科研并重”的宗旨记</p>
+											<div class="er-con-more">
+												<a href="javascript:;"><span class=" fa-plus"></span>详细</a>
+											</div>
+										</div>
+									</div>
+									<div class="flex-yin"></div>
+								</a>
+							</div>
+							<div class="flex-item">
+								<a href="javascript:;">
+									<div class="box">
+										<div class="imgbox" style="background: url(images/4.jpg) center center no-repeat;background-size:cover ;">
+											<div class="ch1"></div>
+										</div>
+										<div class="title">
+											<span class="title-name">游客中心</span>
+											<ul>
+												<li>
+													<a href="javascript:;">
+														<span class="fa-eye"></span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;">
+														<span class=" fa-volume-up"></span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;">
+														<span class=" fa-play-circle-o"></span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;">
+														<span class="fa-map-marker"></span>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="info">
+											<p>坚持“以人为本”、“健康第一”的指导思想，注重“理论与实践结合，教学与科研并重”的宗旨记注重“理论与实践结合，教学与科研并重”的宗旨记</p>
+											<div class="er-con-more">
+												<a href="javascript:;"><span class=" fa-plus"></span>详细</a>
+											</div>
+										</div>
+									</div>
+									<div class="flex-yin"></div>
+								</a>
+							</div>
+							<div class="flex-item">
+								<a href="javascript:;">
+									<div class="box">
+										<div class="imgbox" style="background: url(images/4.jpg) center center no-repeat;background-size:cover ;">
+											<div class="ch1"></div>
+										</div>
+										<div class="title">
+											<span class="title-name">游客中心</span>
+											<ul>
+												<li>
+													<a href="javascript:;">
+														<span class="fa-eye"></span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;">
+														<span class=" fa-volume-up"></span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;">
+														<span class=" fa-play-circle-o"></span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;">
+														<span class="fa-map-marker"></span>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="info">
+											<p>坚持“以人为本”、“健康第一”的指导思想，注重“理论与实践结合，教学与科研并重”的宗旨记注重“理论与实践结合，教学与科研并重”的宗旨记</p>
+											<div class="er-con-more">
+												<a href="javascript:;"><span class=" fa-plus"></span>详细</a>
+											</div>
+										</div>
+									</div>
+									<div class="flex-yin"></div>
+								</a>
+							</div>
+							<!-- <div class="flex-item">
+								<a href="javascript:;">
+									<div class="box">
+										<div class="imgbox" style="background: url(images/4.jpg) center center no-repeat;background-size:cover ;">
+											<div class="ch1"></div>
+										</div>
+										<div class="title">
+											<span class="title-name">游客中心</span>
+											<ul>
+												<li>
+													<a href="javascript:;">
+														<span class="fa-eye"></span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;">
+														<span class=" fa-volume-up"></span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;">
+														<span class=" fa-play-circle-o"></span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;">
+														<span class="fa-map-marker"></span>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="info">
+											<p>坚持“以人为本”、“健康第一”的指导思想，注重“理论与实践结合，教学与科研并重”的宗旨记注重“理论与实践结合，教学与科研并重”的宗旨记</p>
+											<div class="er-con-more">
+												<a href="javascript:;"><span class=" fa-plus"></span>详细</a>
+											</div>
+										</div>
+									</div>
+									<div class="flex-yin"></div>
+								</a>
+							</div> -->
+							<div class="flex-item">
+								<a href="javascript:;">
+									<div class="box">
+										<div class="imgbox" style="background: url(images/4.jpg) center center no-repeat;background-size:cover ;">
+											<div class="ch1"></div>
+										</div>
+										<div class="title">
+											<span class="title-name">游客中心</span>
+											<ul>
+												<li>
+													<a href="javascript:;">
+														<span class="fa-eye"></span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;">
+														<span class=" fa-volume-up"></span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;">
+														<span class=" fa-play-circle-o"></span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;">
+														<span class="fa-map-marker"></span>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="info">
+											<p>坚持“以人为本”、“健康第一”的指导思想，注重“理论与实践结合，教学与科研并重”的宗旨记注重“理论与实践结合，教学与科研并重”的宗旨记</p>
+											<div class="er-con-more">
+												<a href="javascript:;"><span class=" fa-plus"></span>详细</a>
+											</div>
+										</div>
+									</div>
+									<div class="flex-yin"></div>
+								</a>
+							</div>
+						</div>
+						<div class="carousel-inner" role="listbox">	
+						</div>
+						<a class="left carousel-control" href="#simple-content-carousel" role="button" data-slide="prev">
+						    
+						</a>
+						<a class="right carousel-control" href="#simple-content-carousel" role="button" data-slide="next">
+						</a>
+					</div>				
+			    </div>
+		    <div class="er-con-more er-view-more">
+				<a href="javascript:;">查看更多景点信息</a>
+			</div>
+		</div>
+	</div>
+	<!-- 720全景 -->
+	<div class="section er-full-screen pages2 opacitys" id="section2" style="background: url(images/fullscreen.jpg) center no-repeat;background-size: auto 100%;">
+		<div class="er-full-content">
+			<div class="er-screen-box txtdl3">
+			</div>
+			<div class="er-screen-txt txtdl4">
+				<h4 class="hdjbaosong">720°全景游景区</h4>
+				<p>
+					　　　　　　　　不在景区？没关系！ <br/>
+					　　　　　　同样让你身临其境感受美丽风光 <br/>
+					　　　　您坐在电脑椅上就能身临其境地游览 <br/>
+					　　黄鹤湖景区的美丽风光 <br/>
+					　随时、随地、随心.... <br/>
+					享受您的旅途 <br/>
+				</p>
+				<div class="er-con-more er-view-more">
+					<a href="javascript:;">进入虚拟景区</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 美景美图 -->
+	<div class="section er-bea pages3" id="section3">
+		<div class="er-bea-box">
+			<div class="about-title">
+				<p class="about-name txtdl1">景区景点</p>
+				<p class="banner-eg txtdl2">Scenic Attractions</p>
+			</div>
+			<div class="er-bea-content txtdl3">
+				<div class="er-bea-list">
+					<a href="javascript:;">
+						<div class="er-bea-img"></div>
+						<div class="er-bea-text">
+							<div class="er-cell">
+								<p>测吃车市测试</p>
+								<p class="er-bea-more">
+									<span class=" fa-search"></span>
+									点击查看大图
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="er-bea-list">
+					<a href="javascript:;">
+						<div class="er-bea-img"></div>
+						<div class="er-bea-text">
+							<div class="er-cell">
+								<p>测吃车市测试</p>
+								<p class="er-bea-more">
+									<span class=" fa-search"></span>
+									点击查看大图
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="er-bea-list">
+					<a href="javascript:;">
+						<div class="er-bea-img"></div>
+						<div class="er-bea-text">
+							<div class="er-cell">
+								<p>测吃车市测试</p>
+								<p class="er-bea-more">
+									<span class=" fa-search"></span>
+									点击查看大图
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="er-bea-list">
+					<a href="javascript:;">
+						<div class="er-bea-img"></div>
+						<div class="er-bea-text">
+							<div class="er-cell">
+								<p>测吃车市测试</p>
+								<p class="er-bea-more">
+									<span class=" fa-search"></span>
+									点击查看大图
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="er-bea-list">
+					<a href="javascript:;">
+						<div class="er-bea-img"></div>
+						<div class="er-bea-text">
+							<div class="er-cell">
+								<p>测吃车市测试</p>
+								<p class="er-bea-more">
+									<span class=" fa-search"></span>
+									点击查看大图
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="er-bea-list">
+					<a href="javascript:;">
+						<div class="er-bea-img"></div>
+						<div class="er-bea-text">
+							<div class="er-cell">
+								<p>测吃车市测试</p>
+								<p class="er-bea-more">
+									<span class=" fa-search"></span>
+									点击查看大图
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="er-bea-list">
+					<a href="javascript:;">
+						<div class="er-bea-img"></div>
+						<div class="er-bea-text">
+							<div class="er-cell">
+								<p>测吃车市测试</p>
+								<p class="er-bea-more">
+									<span class=" fa-search"></span>
+									点击查看大图
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="er-bea-list">
+					<a href="javascript:;">
+						<div class="er-bea-img"></div>
+						<div class="er-bea-text">
+							<div class="er-cell">
+								<p>测吃车市测试</p>
+								<p class="er-bea-more">
+									<span class=" fa-search"></span>
+									点击查看大图
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="er-con-more er-view-more txtdl4">
+				<a href="javascript:;">查看更多图片</a>
+			</div>
+		</div>
+	</div>
+	<!-- 美景美图弹窗 -->
+	<div class="mask"></div>
+	<div class="er-img-box">
+		<div class="er-img-wraper">
+			<div class="er-wraper-list">
+				<a href="javascript:;">
+					<img src="images/4.jpg" alt="">
+				</a>
+			</div>
+			<div class="er-wraper-list">
+				<a href="javascript:;">
+					<img src="images/4.jpg" alt="">
+				</a>
+			</div>
+			<div class="er-wraper-list">
+				<a href="javascript:;">
+					<img src="images/ms-i.png" alt="">
+				</a>
+			</div>
+			<div class="er-wraper-list">
+				<a href="javascript:;">
+					<img src="images/4.jpg" alt="">
+				</a>
+			</div>
+			<div class="er-wraper-list">
+				<a href="javascript:;">
+					<img src="images/sp-i.png" alt="">
+				</a>
+			</div>
+			<div class="er-wraper-list">
+				<a href="javascript:;">
+					<img src="images/ms-i.png" alt="">
+				</a>
+			</div>
+			<div class="er-wraper-list">
+				<a href="javascript:;">
+					<img src="images/sp-i.png" alt="">
+				</a>
+			</div>
+			<div class="er-wraper-list">
+				<a href="javascript:;">
+					<img src="images/4.jpg" alt="">
+				</a>
+			</div>
+		</div>
+		<!-- 分页 -->
+		<div class="er-img-pages">
+			<span class="er-pages-num">0</span>/<span class="er-pages-total">0</span>
+		</div>
+		<!-- 方向 -->
+		<div class="er-img-dec">
+			<div class="er-img-left"></div>
+			<div class="er-img-right"></div>
+		</div>
+	</div>
+	<div class="pages4" style="display: none;"></div>
+	<div class="pages5" style="display: none;"></div>
+	<div class="pages6" style="display: none;"></div>
+	<!-- foot -->
+	<div class="section er-foot">
+		<div class="er-foot-left er-foot-info">
+			<p>版权所有：内江市黄鹤湖旅游景区管理委员会 Copyright @ hhhly.cn All right Resrrved    地址：四川·内江·市中区·永安镇</p>
+			<div class="er-foot-company">
+				全案策划 ：绵阳金石文化
+				<div class="company-img">
+					<img src="images/company.png" alt="">
+				</div>	
+			</div>
+		</div>
+		<div class="er-foot-right er-foot-info">
+			<ul>
+				<li class="er-foot-list er-chart">
+					<a href="javascript:;">
+						<span class="er-foot-icons"></span>
+						官方微信
+					</a>
+					<div class="er-foot-text">
+						<img src="../images/erwm.png" alt="">
+						<div class="er-foot-tf">
+							<p>
+								黄鹤湖旅游景区<br/>
+								官方微信工作平台
+							</p>
+							<p class="er-foot-link">
+								扫一扫，关注更精彩<br/>
+								微信号：hhhlyq
+							</p>
+						</div>
+					</div>
+				</li>
+				<li class="er-foot-list er-full">
+					<a href="javascript:;">
+						<span class="er-foot-icons"></span>
+						虚拟景区
+					</a>
+					<div class="er-foot-text">
+						点击查看720全景景区
+					</div>
+				</li>
+				<li class="er-foot-list er-addr">
+					<a href="javascript:;">
+						<span class="er-foot-icons"></span>
+						虚拟景区
+					</a>
+					<div class="er-foot-text">
+						点击查看地图
+					</div>
+				</li>
+				<li class="er-foot-list er-tel">
+					<a href="javascript:;">
+						<span class="er-foot-icons"></span>
+						咨询热线
+					</a>
+					<div class="er-foot-text">
+						<p class="er-foot-serve">咨询服务热线：0832-8855898</p>
+						<p class="er-foot-help">救援服务电话：0832-6677676</p>
+						<p class="er-foot-lodge">景区投诉电话：0832-5566565</p>
+						<p class="er-foot-country">全国旅游投诉热线：12301</p>
+					</div>
+				</li>
+				<li class="er-foot-list er-links">
+					<a href="javascript:;">
+						<span class="er-foot-icons"></span>
+						分享中心
+					</a>
+					<div class="er-foot-text">
+						<!-- JiaThis Button BEGIN -->
+							<div class="jiathis_style_24x24">
+								<a class="jiathis_button_qzone"></a>
+								<a class="jiathis_button_tsina"></a>
+								<a class="jiathis_button_tqq"></a>
+								<a class="jiathis_button_weixin"></a>
+								<a class="jiathis_button_renren"></a>
+							</div>
+							<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
+						<!-- JiaThis Button END -->
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+
+
+
+
+	<script src='js/jquery.min.js'></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/pic-slide.js"></script>
+	<script src='js/plugin.js'></script>
+	<script src='js/impression.js'></script>
+</body>
+</html>
